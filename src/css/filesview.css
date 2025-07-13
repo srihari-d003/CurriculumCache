@@ -1,0 +1,32 @@
+.fileviewbranch_subject{
+  margin: 0px 10px;
+  display: flex !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+  .fileviewmain{
+    margin: 10px auto;
+    max-width: 600px;
+  }
+
+  .fileviewmain div select{
+    min-width: 150px !important;
+  }
+
+  .fileviewbranch_subject div{
+    padding-bottom: 10px;
+  }
+
+  .filesupload_btn{
+    outline: none;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+  }

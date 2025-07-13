@@ -1,0 +1,65 @@
+
+.main{
+    margin: 10px auto;
+    max-width: 600px;
+  }
+  
+  .card{
+    border: 1.5px solid rgb(115, 98, 72);
+    border-radius: 4px;
+    background-color: rgb(247, 231, 207);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin:0px 10px 10px 10px;
+  }
+  
+  .card-text a{
+    text-decoration: none;
+    /* color: red; */
+  }
+  
+  .card-delete{
+    cursor: pointer;
+  }
+
+  .input_file{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+  }
+
+  .upload_btn{
+    outline: none;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+  }
+
+  #files{
+    padding-top: 10px;
+  }
+
+  .branch_subject{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .branch_subject div{
+    margin-bottom: 10px;
+  }
+
+ .branch_subject div label{
+    font-weight: 600;
+    padding-bottom: 8px;
+ }
+
+  .branch_subject div select{
+    min-width: 140px;
+  }

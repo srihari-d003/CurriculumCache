@@ -1,0 +1,276 @@
+
+.homewrapper{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.desc1{
+    font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 800px;
+  margin: 20px auto;
+  position: absolute;
+  top: 15%;
+  margin-right: 22%;
+  font-size: 24px;
+  margin-left: 3%;
+}
+
+.homemain{
+    padding: 10px;
+  height: 90vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+    background-image: url('../media/undraw_road_to_knowledge_m8s0.svg');
+}
+
+.homewrapper{
+    background-color: rgb(249, 249, 237);
+}
+
+@media screen and (max-width:600px){
+    .desc1{
+        top: 13%;
+        margin-right: 20px;
+        font-size: 22px;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .desc1{
+        top: 14%;
+        margin-right: 20px;
+        font-size: 20px;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-widht:400px) {
+    .desc1{
+        top: 20%;
+    }
+}
+
+@media screen and (max-width:365px){
+    .desc1{
+        top: 25%
+    }
+}
+
+@media screen and (max-width:650px) {
+    .logoutBtn{
+        display: none !important;
+    }
+
+    .logoutBt{
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:650px) {
+   .logoutBt{
+        display: none;
+    }
+}
+
+
+.uploadbtn{
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.uploadbtn button{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+}
+
+.Maincard{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    margin-top: 50px !important;
+    max-width: 1000px;
+}
+
+.onecard{
+    max-width: 300px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: rgb(203, 170, 234);
+    color: white    ;
+    box-shadow: 10px 10px 8px 4px #a3a3a3;
+}
+
+.onecard p{
+    padding: 20px 10px 0px 10px;
+}
+
+.onecard button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-end-end-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+}
+
+.onecard button:hover{
+    background-color: rgb(152, 48, 249);
+}
+
+.footerMain{
+    margin-top: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.footer p{
+    padding: 0px 10px;
+}
+
+.footer div{
+    max-width: 500px;
+}
+
+.footer button{
+    width: 150px !important;
+}
+
+.footer button:hover{
+    background-color: rgb(152, 48, 249);
+}
+
+.heading{
+    font-size: 38px;
+    color: #371a8a;
+    padding: 20px 10px 20px 10px;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+}
+
+.headingd{
+    font-size: 38px;
+    color: #371a8a;
+    padding: 10px 10px 0px 10px;
+    font-variant: small-caps;
+}
+
+.logoutBtn{
+    margin-top: 10px !important;
+    float: right;
+    outline: none;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+.logoutBt{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 580;
+    font-size: 14px;
+}
+
+
+
+.footer2{
+    background-color: rgb(38, 37, 37);
+    min-height: 100px;
+    padding: 24px 0px;
+}
+
+.footer2 div{
+    text-align: center;
+    width: 100%;
+}
+
+.social {
+	padding:auto;
+	margin-top: 35px;
+}
+
+#home{
+	transition-duration: 0.7s;
+}
+html {
+    background-color: rgb(249, 249, 237);
+    scroll-behavior: smooth;
+  }
+
+.social a{
+	color: #fff;
+	padding: 8px;
+	transition: ease 0.6s;
+}
+
+.social a svg{
+    height: 30px;
+    width: 30px;
+}
+
+.social a:hover{
+	color: rgb(193, 158, 227)
+}
+
+.bottombtn{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: grey;
+    cursor: pointer;
+}
+
+.social p{
+    color: rgb(205, 152, 254);
+}
+
+.logoimg{
+    cursor: pointer;
+    padding-right: 10px;
+}
